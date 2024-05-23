@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>詳細</title>
+    <link rel="stylesheet" href="detail.css">
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="go-homeUrl" id="goHomeUrl">ヘッダー</a>
+    </header>
+    <main>
+        <div class="detail">
+                <div class="id">
+                    <ul>
+                        <li class="number">No.<span id="number"></span></li>
+                        <li class="name"><span id="name"></span></li>
+                    </ul>
+                </div>
+                <div class="img_wrapper">
+                    <img class="icon" id="icon" src="">
+                </div>
+            <div class="line_up">
+                <div class="features">
+                    <ul>
+                        <li class="item"><b>分類：</b> <span id="genera"></span></li>
+                        <li class="item"><b>タイプ：</b> <span id="type"></span></li>
+                        <li class="item">
+                            <b>高さ：</b><span id="height"></span>
+                            <b>重さ：</b><span id="weight"></span>
+                        </li>
+                        <li class="item"><b>特性：</b><span id="abilities"></span></li>
+                    </ul>
+                </div>
+                <div class="status">
+                    <ul>
+                            <li class="item" id="hp"><b class="berTitle berTitle_hp">HP：</b><meter class="meter" id="hp_meter" value=""></meter></li>
+                            <li class="item" id="attack"><b class="berTitle">こうげき：</b><meter class="meter" id="attack_meter" value=""></meter></li>
+                            <li class="item" id="defense"><b class="berTitle">ぼうぎょ：</b><meter class="meter" id="defense_meter" value=""></meter></li>
+                            <li class="item" id="special-attack"><b class="berTitle">とくこう：</b><meter class="meter" id="specialAttack_meter" value=""></meter></li>
+                        <li class="item" id="special-defense"><b class="berTitle">とくぼう：</b><meter class="meter" id="specialDefense_meter" value=""></meter></li>
+                        <li class="item" id="speed"><b class="berTitle">すばやさ：</b><meter class="meter" id="speed-meter" value=""></meter></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="explanation">
+                <p id="flavotext">生まれてきたときから　背中に　タネを背負っている。　体が　大きく　育つごとに　タネも　大きくなる。</p>
+            </div>
+        </div>
+    </main>
+    <script src="detail.js" type="module"></script>
+</body>
+</html>
